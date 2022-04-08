@@ -1,0 +1,356 @@
+/*********** HTML elements ************/
+* {
+  border-box: box-sizing;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+html {
+  scroll-behavior: smooth;
+}
+p {
+  font-family: sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Yusei Magic', sans-serif;
+  text-align: center;
+}
+h1,
+h2,
+h4,
+h5,
+h6,
+li {
+  background: linear-gradient(45deg, #0066ff, #ff4dff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2 {
+  font-size: 3rem;
+}
+.nav-container {
+  position: sticky;
+  top: 5px;
+}
+/******** common classes **********/
+.container-fluid {
+  padding: 1% 12%;
+}
+.clear {
+  clear: both;
+}
+/********* Navbar Sectoin ***********/
+header {
+  margin-bottom: 50px;
+}
+.navbar {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+nav ul {
+  list-style: none;
+  margin-left: 230px;
+}
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+.active-li,
+nav ul li:hover {
+  background: linear-gradient(#0066ff, #ff4dff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  cursor: pointer;
+}
+.contact-btn {
+}
+/************* starting section ***************/
+.starting {
+  width: 40%;
+  float: left;
+  margin-top: 4rem;
+  text-align: left;
+}
+.starting p {
+  background: linear-gradient(#0066ff, #ff4dff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.starting-words {
+  margin-top: 11rem;
+  width: 55%;
+}
+
+.hay {
+  margin-bottom: -10px;
+  font-weight: 600;
+}
+.me {
+  font-size: 4rem;
+}
+.work {
+  margin-top: -2rem;
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  margin-bottom: 5rem;
+}
+.me,
+.work,
+.hay {
+  text-align: left;
+}
+.starting-btn {
+  padding: 14px 25px;
+  font-size: 18px;
+  color: white;
+  background-image: linear-gradient(45deg, #0066ff, #ff4dff, #1affb2);
+  border: none;
+  border-radius: 32px;
+  outline: none;
+  transition: all 0.7s;
+  text-decoration: none;
+}
+.starting-btn:hover {
+  background-image: linear-gradient(45deg, #ff4dff, #1affb2, #0066ff);
+  cursor: pointer;
+  font-size: 18.5px;
+  transition: all 0.8s;
+}
+
+/*************** followers ****************/
+#followers {
+}
+.follow {
+  width: 30%;
+  display: inline-block;
+  margin: 8% 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.follow-num {
+}
+.follow p {
+  background: linear-gradient(#0066ff, #ff4dff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+.follow p span {
+  font-size: 24px;
+  font-weight: 700;
+}
+/************* About me section **********/
+#about-me {
+  padding: 1rem 10rem;
+}
+#about-me p {
+  font-size: 20px;
+
+  background: linear-gradient(45deg, #0066ff, #ff4dff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about {
+  float: left;
+  margin: 4rem 0 0;
+}
+.aboutMe-text {
+  margin: 3rem 0 0;
+  line-height: 2;
+  width: 60%;
+}
+.aboutMe-image {
+  width: 40%;
+}
+.about-image {
+  width: 250px;
+  height: 250px;
+  transform: rotate(-15deg);
+  border-radius: 100%;
+  margin-left: 4rem;
+}
+
+/******* SERVICES *************/
+
+#services {
+  margin-top: 6rem;
+  text-align: center;
+}
+.service {
+  float: left;
+  width: 40%;
+  padding: 30px 20px;
+  background-color: #f7f7f7;
+  margin: 2rem 20px 0;
+}
+.service p {
+  padding: 10px 2rem;
+  background: linear-gradient(#0066ff, #ff4dff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.5;
+}
+
+.web-image {
+  width: 320px;
+  height: 300px;
+}
+.arduino-image {
+  width: 330px;
+  height: 300px;
+}
+.arduino-service:hover,
+.web-service:hover {
+  box-shadow: 0 0 10px;
+  margin: 2.3rem 0 0 10px;
+}
+
+/************* TESIMONIALS **************/
+
+#testimonials {
+  padding: 5rem 10rem;
+}
+#testimonials img {
+  border-radius: 100%;
+  width: 75%;
+  transform: rotate(-10deg);
+}
+.recommend-photo,
+.recommend-words {
+  float: left;
+}
+.recommend-photo {
+  width: 30%;
+  margin-top: 1rem;
+}
+.recommend-photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.recommend-words {
+  width: 70%;
+}
+.testimonial {
+  padding-top: 5rem;
+}
+.testimonial h4,
+.testimonial h5 {
+  text-align: left;
+  margin-left: 4rem;
+}
+.testimonial h4 {
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+
+.testimonial h5 {
+  font-size: 17px;
+}
+.testimonial h5 span {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/******** RECENT WORKS ***********/
+
+#recent {
+  padding: 0 5rem 0;
+}
+.recent-head {
+  padding: 2rem 0 4rem;
+}
+#recent img {
+  width: 37%;
+  margin: 20px;
+  height: 500px;
+  padding: 2.2rem 1rem;
+}
+
+#recent img:hover {
+  box-shadow: 0 0 15px;
+  cursor: pointer;
+}
+.recent-work {
+  text-align: center;
+}
+.recent-arduino {
+  margin-bottom: 6rem;
+}
+.recent-arduino img {
+  height: 450px;
+}
+.recent-web img {
+  height: 500px;
+}
+#recent h4 {
+  text-align: left;
+  font-size: 2.5rem;
+  margin: 10px 0 3.5rem;
+}
+
+/******* contact **********/
+
+#contact {
+  margin: 5rem 0 0;
+  padding: 1rem 3rem 9rem;
+  background-color: rgb(6, 6, 32);
+  color: #fff;
+  border-bottom: 1px solid rgb(75, 74, 74);
+}
+.get-in-touch {
+  color: #fff !important;
+  text-align: center;
+  font-size: 3rem;
+}
+
+#contact p {
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+/************* Footer **************/
+
+#footer {
+  color: #fff;
+  padding: 0.8rem 0;
+  overflow: hidden;
+  background-color: rgb(6, 6, 32);
+}
+.icons {
+  text-align: right;
+  margin-bottom: -15px;
+}
+#footer p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+.social-icon {
+  margin-left: 20px;
+  font-size: 20px;
+}
+.get-in-touch {
+  color: #fff;
+}
